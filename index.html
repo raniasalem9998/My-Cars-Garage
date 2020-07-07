@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Garagi</h1>
+    <form id="addedCar">
+        <fieldset>
+            <label for="modle">Car Modle</label>
+            <input type="text" id="modle">
+            <br>
+            <label for="year">Modle Year</label>
+            <input type="number" id="year">
+            <br>
+            <label for="origin">Manufarcturer</label>
+            <select name="cars" id="origin">
+                <option value="Germany">Germany</option>
+                <option value="korea">Korea</option>
+                <option value="Japan">Japan</option>
+                <option value="France">FFrance</option>
+                <option value="USA">USA</option>
+            </select>
+            <br>
+                <button type="submit">submit</button>
+        </fieldset>
+
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Car Modle</th>
+                <th>Modle year</th>
+                <th>Price</th>
+                <th>Manufarcturer</th>
+                <th>remove</th>
+            </tr>
+        </thead>
+        <tbody id="carsList">
+
+        </tbody>
+    </table>
+<script src="app.js"></script>
+</body>
+
+</html>

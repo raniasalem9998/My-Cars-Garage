@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+body{
+    background-image: url('../img/page-background.jpg');
+    font-family: 'Noto Sans', sans-serif;
+    color: #f5f5f5;
+/* text-align: center; */
+}
+h1{
+    text-align: center;
+    background-color: #1F1F1F ;
+
+}
+table{
+    top:30%;
+    right: 10%;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+
+    background-color:  rgb(143, 0, 0,.8);
+}
+fieldset{
+    top:30%;
+    text-align: center;
+    left:0px;
+    width: 60px;
+  
+    position: absolute;
+    /* display: inline; */
+    background-color:  rgb(143, 0, 0,.8);
+}
+table{
+    text-align: center;
+    left: 40%;
+    /* display: inline;s */
+    position: absolute;
+    padding: 10px;
+    /* border: 7px  solid #f5f5f5 ; */
+    /* border: 1px #f5f5f5 ; */
+    border-collapse: collapse;
+}
+table td{
+    padding: 3px;
+    border: 1px  solid #f5f5f5 ;
+}
+table th{
+    padding: 3px;
+    border: 1px  solid #f5f5f5 ;
+}
+
+thead tr{
+   
+    border-collapse: collapse;
+    background-color: #1F1F1F ;
+}
+ tbody{
+    background-color: #3D3D3D;
+}
+form button{
+    color: #f5f5f5;
+    background-color: #1F1F1F ;
+}
